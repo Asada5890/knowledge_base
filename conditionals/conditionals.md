@@ -23,7 +23,11 @@
 
 ![image info](./pics/pic1.png)
 
+<<<<<<< HEAD
 ```Python
+=======
+```python
+>>>>>>> e5a9f0718049a6952bb6fe5c8f9335dacb54538b
 name = input('Как Вас зовут: ')
 
 if name == 'Миша':
@@ -46,7 +50,11 @@ print('Рад знакомству!')
 
 ![image info](./pics/pic2.png)
 
+<<<<<<< HEAD
 ```Python
+=======
+```python
+>>>>>>> e5a9f0718049a6952bb6fe5c8f9335dacb54538b
 answer = input('Угадай, как меня зовут: ')
 
 if answer == 'Миша':
@@ -82,8 +90,12 @@ else:
 
 ![image info](./pics/pic3.png)
 
+<<<<<<< HEAD
 ```Python
 
+=======
+```python
+>>>>>>> e5a9f0718049a6952bb6fe5c8f9335dacb54538b
 secret_num = 7
 print("Я загадал число от 1 до 10!")
 answer = int(input('Угадай его: '))
