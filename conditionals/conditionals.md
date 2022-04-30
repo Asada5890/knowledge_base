@@ -23,7 +23,7 @@
 
 ![image info](./pics/pic1.png)
 
-```Python3
+```python
 name = input('Как Вас зовут: ')
 
 if name == 'Миша':
@@ -46,7 +46,7 @@ print('Рад знакомству!')
 
 ![image info](./pics/pic2.png)
 
-```Python3
+```python
 answer = input('Угадай, как меня зовут: ')
 
 if answer == 'Миша':
@@ -82,8 +82,7 @@ else:
 
 ![image info](./pics/pic3.png)
 
-```Python3
-
+```python
 secret_num = 7
 print("Я загадал число от 1 до 10!")
 answer = int(input('Угадай его: '))
@@ -104,7 +103,7 @@ else:
 В первом блоке `else` содержится конструкция `if ... else ...`  
 Python позволяет нам использовать ключевое слово `elif` вместо `else: if` и писать все блоки на одном уровне. Так код легче читается:
 
-```python3
+```python
 if secret_num == answer:
     print('Угадал!')
 elif secret_num > answer:
