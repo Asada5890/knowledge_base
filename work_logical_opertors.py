@@ -1,6 +1,7 @@
-gender = input("Ваш пол (М или Ж): ")
+gender = input("Ваш пол (М или Ж): ").strip().upper() 
 
-while gender != "М" and gender != "Ж":
+# while gender != "М" and gender != "Ж":
+while gender not in ("М", "Ж", ""):
     print("Некорректное значение!")
     gender = input("Попробуйте еще раз: ")
 
